@@ -1,0 +1,43 @@
+#be-a-contestant {
+	display: block;
+	height: 790px;
+}
+
+#be-a-contestant h2 {
+	background: url(../img/checker-be-a-contestant.png) no-repeat right 55px;
+}
+
+#be-a-contestant #form,
+#be-a-contestant #clock {
+	display: block;
+	margin-top: 70px;
+	width: 49%;
+}
+
+#be-a-contestant #form {
+	float: left;
+}
+
+#be-a-contestant #clock {
+	float: right;
+}
+
+#be-a-contestant #clock #clock-display {
+	background: url(../img/clock-display.png) no-repeat scroll center center;
+	height: 330px;
+	width: 100%;
+}
+
+#be-a-contestant #clock #clock-display p {
+	color: rgb(238, 241, 63);
+	font: 140px DigitalDream, sans-serif;
+	padding-top: 90px;
+	text-align: center;
+	text-shadow: 8px 10px 0 rgb(0, 0, 0);
+}
+
+#be-a-contestant #clock h2.clock {
+	background: none;
+	line-height: 50px;
+	text-align: center;
+}

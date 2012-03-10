@@ -1,0 +1,58 @@
+/*** List of CSS files used ***/
+
+@import url('reset.css')            all;
+@import url('font-face.css')        all;
+@import url('be-a-contestant.css')  all;
+@import url('footer.css')           all;
+@import url('header.css')           all;
+@import url('navigation.css')       all;
+@import url('obstacles.css')        all;
+@import url('prizes.css')           all;
+@import url('form.css')             all;
+
+
+
+/*** Common styles ***/
+
+body {
+	background: url(../img/background.png) repeat-x scroll left top;
+}
+
+h2 {
+	color: rgb(255, 255, 255);
+	font: 40px KomikaTitle, sans-serif;
+	letter-spacing: 1px;
+	padding-top: 40px;
+	text-shadow: 3px 3px 0 rgba(0, 0, 0, .2);
+	width: 100%;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 940px;
+}
+
+#be-a-contestant-and-footer {
+	background: url(../img/texture-blue.png) repeat scroll left top;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+/*** selectors ***/
+
+::-moz-selection {
+	background: rgb(238, 241, 63);
+	color: rgb(0, 0, 0);
+	text-shadow: none;
+}
+
+::selection {
+	background: rgb(238, 241, 63);
+	color: rgb(0, 0, 0);
+	text-shadow: none;
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+
+	<head>
+	
+		<!-- Meta -->
+		<meta charset="utf-8" />
+		<meta name="description" content="Triple Dare, the web's messiest challenge for the CSSOFF 2011 Contest!" />
+		<meta name="generator" content="Espresso 2" />
+
+		<!-- Title -->
+		<title>Triple Dare - The web's messiest challenge!</title>
+
+		<!-- CSS -->
+		<link media="all" rel="stylesheet" type="text/css" href="css/styles.css" />
+
+		<!-- Javascript -->
+		<script type="text/javascript" src="js/lib/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.style-select.js"></script>
+		<!--[if lt IE 9]>   <script type="text/javascript" src="js/lib/html5.js"></script>           <![endif]-->
+		
+		<script type="text/javascript" src="js/jquery.cssoff-clock.js"></script>
+		<script type="text/javascript" src="js/jquery.cssoff-scroll.js"></script>
+		<script type="text/javascript" src="js/jquery.cssoff-slides.js"></script>
+		<!--[if lte IE 9]>  <script type="text/javascript" src="js/jquery.cssoff-form.js"></script>  <![endif]-->
+		
+	</head>
+
+	
+	<body>
+	
+		<nav id="navigation">
+			<ul id="menu">
+				<li><a href="#obstacles">Obstacles</a></li>
+				<li><a href="#prizes">Prizes</a></li>
+				<li><a href="#be-a-contestant">Be a contestant</a></li>
+				<li><a href="#header">Back to top</a></li>
+			</ul>
+			<!-- end #menu -->
+		</nav>
+		<!-- end #navigation -->
+
+
+
+		<header id="header">
+			<div id="logo-header">
+				<img alt="Triple Dare" class="logo-tripledare" src="img/logo-tripledare.png">
+			</div>
+			
+			<hgroup>
+				<h1>The web's messiest challenge!</h1>
+				<h5 class="header-subtitle">Airing Thursdays on the Knucklelodeon Network™</h5>
+			</hgroup>
+		</header>
+		<!-- end #header -->
+
+
+
+		<section id="obstacles">
+		
+			<div class="content">
+			
+				<h2>Obstacles</h2>
+				
+				<section id="button-slides">
+					<div class="button" id="button-the-tank"><p>The Tank</p></div>
+					<div class="button" id="button-sundae-slide"><p>Sundae Slide</p></div>
+					<div class="button" id="button-human-hamster-wheel"><p>Human Hamster Wheel</p></div>
+					<div class="button" id="button-down-the-hatch"><p>Down The Hatch</p></div>
+					<div class="button" id="button-pick-it"><p>Pick It!</p></div>
+					<div class="button" id="button-the-wringer"><p>The Wringer</p></div>
+					<div class="clear"></div>
+				</section>
+				<!-- end #button-slides" -->
+
+				<section id="slides">	
+					
+					<article id="slide">
+						<hgroup id="slide-hgroup">
+							<h3 id="slide-title"></h3>
+							<h5 id="slide-subtitle"></h5>
+						</hgroup>
+						
+					</article>
+					
+				</section>
+				<!-- end #slides -->
+				
+				<div class="clear"></div>
+				
+			</div>
+			<!-- end .content -->
+			
+		</section>
+		<!-- end #obstacles -->
+	
+
+		
+		<section id="prizes">
+		
+			<div class="content">
+		
+				<h2>Prizes</h2>
+				
+				<section id="prizes-left">
+					<article class="prize" id="prize-space-camp">
+						<img alt="space-camp" src="img/prizes-spacecamp.png" /><p>A Trip To Space Camp!</p>
+					</article>
+					
+					<article class="prize" id="prize-keyboard">
+						<img alt="keyboard" src="img/prizes-keyboard.png" /><p>A Casio Rapman Keyboard!</p>
+					</article>
+				</section>
+				
+				<section id="prizes-right">
+					<article class="prize" id="prize-skateboard">
+						<img alt="skateboard" src="img/prizes-skateboard.png" /><p>A Nash Skateboard!</p>
+					</article>
+					
+					<article class="prize" id="prize-tv">
+						<img alt="tv" src="img/prizes-tv.png" /><p>A 13 Inch TV/VCR Combo!</p>
+					</article>
+				</section>
+				
+			</div>
+			<!-- end .content -->
+
+		</section>
+		<!-- end #prizes -->
+
+
+
+		<div id="be-a-contestant-and-footer">
+
+			<section id="be-a-contestant">
+			
+				<div class="content">
+			
+					<h2>Be a contestant</h2>
+					
+					<section id="form">
+						<form id="contact" method="post">
+							<input type="text"   class="input" id="input-name"  name="name"   placeholder="Your Name"     required /><br />
+							<input type="email"  class="input" id="input-email" name="email"  placeholder="Email Address" required /><br />
+							<input type="text"   class="input" id="input-team"  name="team"   placeholder="Team Name"     required /><br />
+							
+							<div id="select-color"><select class="select" name="team-color" title="Team Color">
+								<option class="input" id="team-color" value="team-color" selected disabled>Team Color</option>
+								<option class="input" id="black"      value="black">Black</option>
+								<option class="input" id="blue"       value="blue">Blue</option>
+								<option class="input" id="green"      value="green">Green</option>
+								<option class="input" id="red"        value="red">Red</option>
+								<option class="input" id="yellow"     value="yellow">Yellow</option>
+								<option class="input" id="pink"       value="pink">Pink</option>
+								<option class="input" id="white"      value="white">White</option>		
+							</select></div>
+							
+							<div id="select-gender"><select class="select" name="gender" title="Gender">
+								<option class="input" id="gender" value="gender" selected disabled>Gender</option>
+								<option class="input" id="male"   value="male">♂ Male</option>
+								<option class="input" id="female" value="female">♀ Female</option>
+								<option class="input" id="alien"  value="alien">✇ Alien</option>
+							</select></div>
+							
+							<input type="url"    class="input" id="input-url"   name="url"    placeholder="Profile Photo URL" /><br />
+							
+							<input type="submit" class="input" id="submit"      name="submit" value="Submit Entry!" />
+						</form>
+					</section>
+					<!-- end #form -->
+					
+					<section id="clock">
+						<div id="clock-display">
+							<p id="time"></p>
+						</div>
+						<h2 class="clock">The Clock<br />Is Ticking!</h2>
+					</section>
+					<!-- end #clock -->
+				
+				</div>
+				<!-- end .content -->
+				
+			</section>
+			<!-- end #be-a-contestant -->
+
+
+
+			<footer id="footer">			
+				<div class="content">
+			
+					<section id="about">		
+						<div id="logo-kn"><img alt="KN" src="img/logo-kn.png" /></div>
+		
+						<article id="disclaimer">
+							<h4>The Knucklelodeon Network</h4>
+							
+							<div id="disclaimer-left">
+								<p>The Knucklelodeon Network is not affiliated<br />
+								with Nickelodeon, nor is it an actual<br />
+								television network</p>
+							</div>
+							
+							<div id="disclaimer-right">
+								<p>Triple Dare contestents consent to potential<br />
+								physical bodily harm, like being burried<br />
+								alive by a giant waffle</p>
+							</div>	
+						</article>
+						<!-- end #disclaimer -->
+						
+						<article id="studios">
+							<h4>Visit Our Studios</h4>
+							
+							<address id="studio-sacramento">
+								<p>11 Slime Time Way</p>
+								<p>Sacramento, CA 94203</p>
+							</address>
+							
+							<address id="studio-jacksonville">
+								<p>329 Gunk Road</p>
+								<p>Jacksonville, FL 32099</p>
+							</address>
+						</article>
+						<!-- end #studios -->				
+					</section>
+					<!-- end #about -->
+					
+					<section id="license">
+						<p>This design is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</p>
+						<a title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License" target="_blank" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons Attribution-NonCommercial-NoDerivs 3.0" class="logo-creativecommons" src="img/license-cc-by-nc-nd.png" /></a>
+					</section>
+					<!-- end #license -->
+		
+				</div>
+				<!-- end .content -->
+
+			</footer>
+			<!-- end #footer -->
+
+		</div>
+		<!-- end #be-a-contestant-and-footer -->
+
+	</body>
+	
+</html>

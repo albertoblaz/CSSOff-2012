@@ -1,0 +1,146 @@
+
+/*** Form ***/
+
+input.input {
+	background: url(../img/texture-orange.png) repeat scroll left top rgb(255, 102, 50);
+	border-radius: 5px;
+	border-style: none;
+	color: rgb(255, 255, 255);
+	display: block;
+	font: 16px KomikaTitle, sans-serif;
+	height: 30px;
+	letter-spacing: 1px;
+	padding: 10px 0;
+	text-indent: 12px;
+	width: 380px;
+}
+
+select.select {
+	-moz-appearance: button;
+	-webkit-appearance: button;
+	appearance: button;
+	background: url(../img/select.png) no-repeat right center;
+	border-radius: 5px;
+	border-style: none;
+	color: rgb(255, 255, 255);
+	display: block;
+	float: left;
+	font: 16px KomikaTitle, sans-serif;
+	height: 50px;
+	letter-spacing: 1px;
+	padding: 10px 0;
+	position: relative;
+	text-indent: 12px;
+	z-index: 10;
+}
+
+select.select option {
+	background-color: rgb(255, 102, 50);
+}
+
+form div {
+	float: left;
+	margin-bottom: 18px;
+	position: relative;
+}
+
+form div + div {
+	float: left;
+}
+
+span.select {
+	background: url(../img/select.png) no-repeat right center;
+	border-radius: 5px;
+	border-style: none;
+	bottom: 0;
+	color: rgb(255, 255, 255);
+	display: block;
+	font: 16px KomikaTitle, sans-serif;
+	height: 30px;
+	left: 0;
+	letter-spacing: 1px;
+	padding: 10px 0;
+	position: absolute;
+	text-align: left;
+	text-indent: 12px;
+	z-index: 1;
+}
+
+#select-color select.select,
+#select-color span.select {
+	margin-right: 18px;
+	width: 200px;
+}
+
+#select-gender select.select,
+#select-gender span.select {
+	width: 162px;
+}
+
+.input:hover,
+.select:hover {
+	color: rgb(238, 241, 63);
+}
+
+input#submit {
+	background: url(../img/splash-submit.png) no-repeat center center;
+	border: none;
+	color: rgb(255, 255, 255);
+	font: 26px KomikaTitle, sans-serif;
+	height: 155px;
+	letter-spacing: 2px;
+	margin-top: 5px;
+	text-align: center;
+	text-shadow: 3px 3px 0 rgba(0, 0, 0, .2);
+	-moz-transform: rotate(-7deg);
+	-ms-transform: rotate(-7deg);
+	-o-transform: rotate(-7deg);
+	-webkit-transform: rotate(-7deg);
+	transform: rotate(-7deg);
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	width: 396px;
+}
+input#submit:hover {
+	color: rgb(238, 241, 63);
+	-moz-transform: rotate(-11deg) scale(1.2,1.2);
+	-ms-transform: rotate(-11deg) scale(1.2,1.2);
+	-o-transform: rotate(-11deg) scale(1.2,1.2);
+	-webkit-transform: rotate(-11deg) scale(1.2,1.2);
+	transform: rotate(-11deg) scale(1.2,1.2);
+}
+
+input#submit:active {
+	color: rgb(255, 102, 50);
+	-moz-transform: rotate(-9deg) scale(1.15,1.15);
+	-ms-transform: rotate(-9deg) scale(1.15,1.15);
+	-o-transform: rotate(-9deg) scale(1.15,1.15);
+	-webkit-transform: rotate(-9deg) scale(1.15,1.15);
+	transform: rotate(-9deg) scale(1.15,1.15);
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+
+
+/* Placeholders */
+
+::-webkit-input-placeholder {
+	color: rgb(255, 255, 255);
+}
+
+:-moz-placeholder {
+	color: rgb(255, 255, 255);
+}
+
+:hover::-webkit-input-placeholder {
+	color: rgb(238, 241, 63);
+}
+
+:hover:-moz-placeholder {
+	color: rgb(238, 241, 63);
+}

@@ -1,0 +1,32 @@
+#header {
+	background: url(../img/texture-blue.png) repeat scroll left top; /* IE Fallback - Loosing the big blue slime */
+	background: url(../img/texture-blue.png) repeat scroll left top, url(../img/splash-header.png) no-repeat scroll center top;
+	height: 680px;
+	padding-top: 33px;
+}
+
+#logo-header {
+	background: url(../img/splash-logo.png) no-repeat scroll center center;
+	height: 500px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+#logo-header img {
+	margin-top: 138px;
+}
+
+#header h1 {
+	color: rgb(254, 101, 55);
+	font: 50px KomikaTitle, sans-serif;
+	letter-spacing: 3px;
+	margin-top: -15px;
+	text-align: center;
+	text-shadow: 2px 2px 0 rgb(255, 255, 255);
+}
+
+h5.header-subtitle {
+	color: rgb(255, 255, 255);
+	font: 22px OpenSans, sans-serif;
+	text-align: center;
+}

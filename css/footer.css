@@ -1,0 +1,81 @@
+#footer {
+	display: block;
+	height: 467px;
+}
+
+#logo-kn {
+	background: url(../img/footer-separator.png) repeat-x scroll left center;
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#footer p {
+	color: rgb(255, 255, 255);
+	font: 14px OpenSans, sans-serif;
+}
+
+#footer #about h4 {
+	color: rgb(255, 255, 255);
+	font: 20px OpenSans, sans-serif;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#disclaimer-left,
+#disclaimer-right,
+#studio-sacramento,
+#studio-jacksonville {
+	display: block;
+	margin: 5px 0 25px;
+	width: 49%;
+}
+
+#disclaimer-left,
+#studio-sacramento {
+	float: left;
+}
+
+#disclaimer-right,
+#studio-jacksonville {
+	float: right;
+}
+
+#disclaimer-left p,
+#studio-sacramento p {
+	text-align: right;
+}
+
+#disclaimer-right p,
+#studio-jacksonville p {
+	text-align: left;
+}
+
+#license,
+#license p {
+	text-align: center;
+}
+
+#license {
+	background: url(../img/footer-separator.png) repeat-x scroll left top;
+	display: block;
+	margin-top: 85px;
+	padding-top: 30px;
+	width: 100%;
+}
+
+#license a img {
+	margin-top: 20px;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+#license a:hover img {
+	-moz-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	transform: scale(1.1,1.1);
+}

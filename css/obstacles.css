@@ -1,0 +1,126 @@
+#obstacles {
+	background: url(../img/texture-orange.png) repeat scroll left top;
+	height: 939px;
+}
+
+#obstacles h2 {
+	background: url(../img/checker-obstacles.png) no-repeat right 55px;
+}
+
+
+
+/*** Buttons ***/
+
+#button-slides {
+	float: left;
+	height: 580px;
+	margin-top: 50px;
+	width: 470px;
+}
+
+.button {
+	background: url(../img/obstacles-sprite-small.png) no-repeat scroll rgb(100, 179, 36); /* IE Fallback - Loosing the texture */
+	background: url(../img/obstacles-sprite-small.png) no-repeat scroll, url(../img/texture-green.png) repeat scroll left top rgb(100, 179, 36);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	display: block;
+	float: left;
+	height: 220px;
+	margin: 0 15px 15px 0;
+	width: 220px;
+}
+
+.button:hover {
+	background: url(../img/obstacles-sprite-small.png) no-repeat scroll rgb(85, 194, 216); /* IE Fallback - Loosing the texture */
+	background: url(../img/obstacles-sprite-small.png) no-repeat scroll, url(../img/texture-blue.png) repeat scroll left top rgb(85, 194, 216);
+}
+
+.button p {
+	color: white;
+	font: 14px KomikaTitle, sans-serif;
+	letter-spacing: 0;
+	padding-top: 185px;
+	text-align: center;
+}
+
+.button:active, 
+.button.active {
+	background: url(../img/obstacles-sprite-small.png) no-repeat scroll rgb(238, 241, 63); /* IE Fallback - Loosing the texture */
+	background: url(../img/obstacles-sprite-small.png) no-repeat scroll, url(../img/texture-yellow.png) repeat scroll left top rgb(238, 241, 63);
+}
+
+.button:active p,
+.button.active p {
+	color: rgb(255, 102, 50);
+}
+
+#button-the-tank {
+	background-position: 0 0;
+}
+
+#button-sundae-slide {
+	background-position: -220px 0;
+}
+
+#button-human-hamster-wheel {
+	background-position: -440px 0;
+}
+
+#button-down-the-hatch {
+	background-position: -660px 0;
+}
+
+#button-pick-it {
+	background-position: -880px 0;
+}
+
+#button-the-wringer {
+	background-position: -1100px 0;
+}
+
+
+
+/*** Slides ***/
+
+#slides {
+	float: right;
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+#slide-hgroup {
+	background: url(../img/splash-obstacles.png) no-repeat center center;
+	display: block;
+	height: 155px;
+	padding-top: 55px;
+	width: 470px;
+}
+
+#slide-title,
+#slide-subtitle {
+	color: rgb(255, 255, 255);
+	letter-spacing: 1px;
+	text-align: center;
+	text-shadow: 3px 3px 0 rgba(0, 0, 0, .2);
+	-moz-transform: rotate(-7deg);
+	-ms-transform: rotate(-7deg);
+	-o-transform: rotate(-7deg);
+	-webkit-transform: rotate(-7deg);
+	transform: rotate(-7deg);
+}
+
+#slide-title {
+	font: 35px KomikaTitle, sans-serif;
+}
+
+#slide-subtitle {
+	font: 18px KomikaTitle, sans-serif;
+}
+
+#slide {
+	background: url(../img/obstacles-sprite.png) no-repeat 0 0;
+	display: block;
+	height: 760px;
+	width: 470px;
+}

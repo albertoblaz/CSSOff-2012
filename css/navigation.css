@@ -1,0 +1,31 @@
+#navigation {
+	background: url(../img/background-nav.png) repeat-x left top;
+	height: 32px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+ul#menu {
+	text-align: center;
+}
+
+ul#menu li {
+	display: inline-block;
+	margin-top: 3px;
+}
+
+ul#menu li + li {
+  margin-left: 52px;
+}
+
+ul#menu li a {
+	color:rgb(255, 255, 255);
+	font: 18px OpenSans, sans-serif;
+	text-transform: uppercase;
+}
+
+ul#menu li a:hover {
+	color:rgb(238, 241, 63);
+}

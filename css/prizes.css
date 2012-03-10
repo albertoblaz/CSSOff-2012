@@ -1,0 +1,95 @@
+#prizes {
+	background: url(../img/texture-green.png) repeat scroll left top;
+	height: 1045px;
+}
+
+#prizes h2 {
+	background: url(../img/checker-prizes.png) no-repeat right 55px;
+}
+
+.prize {
+	height: 100%;
+	text-align: center;
+}
+
+#prizes-left,
+#prizes-right {
+	width: 49%;
+}
+
+#prizes-left {
+	float: left;
+}
+
+#prizes-right {
+	float: right;
+}
+
+#prize-space-camp,
+#prize-skateboard {
+	margin-top: 75px;
+}
+
+#prize-keyboard {
+	margin-top: 130px;
+}
+
+#prize-tv {
+	margin-top: 77px;
+}
+
+.prize p {
+	color: white;
+	font: 16px KomikaTitle, sans-serif;
+	letter-spacing: 1px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+#prize-space-camp img {
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+#prize-skateboard img,
+#prize-keyboard img,
+#prize-tv img {
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#prize-space-camp:hover img {
+	-moz-transform: rotate(160deg) scale(1.1,1.1);
+	-ms-transform: rotate(160deg) scale(1.1,1.1);
+	-o-transform: rotate(160deg) scale(1.1,1.1);
+	-webkit-transform: rotate(160deg) scale(1.1,1.1);
+	transform: rotate(160deg) scale(1.1,1.1);
+}
+
+#prize-skateboard:hover img {
+	-moz-transform: rotate(-40deg) scale(1.1,1.1);
+	-ms-transform: rotate(-40deg) scale(1.1,1.1);
+	-o-transform: rotate(-40deg) scale(1.1,1.1);
+	-webkit-transform: rotate(-40deg) scale(1.1,1.1);
+	transform: rotate(-40deg) scale(1.1,1.1);
+}
+
+#prize-keyboard:hover img{
+	-moz-transform: rotate(-25deg) scale(1.1,1.1);
+	-ms-transform: rotate(-25deg) scale(1.1,1.1);
+	-o-transform: rotate(-25deg) scale(1.1,1.1);
+	-webkit-transform: rotate(-25deg) scale(1.1,1.1);
+	transform: rotate(-25deg) scale(1.1,1.1);
+}
+
+#prize-tv:hover img {
+	-moz-transform: rotate(20deg) scale(1.1,1.1);
+	-ms-transform: rotate(20deg) scale(1.1,1.1);
+	-o-transform: rotate(20deg) scale(1.1,1.1);
+	-webkit-transform: rotate(20deg) scale(1.1,1.1);
+	transform: rotate(20deg) scale(1.1,1.1);
+}
