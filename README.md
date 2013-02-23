@@ -1,11 +1,20 @@
 # CSSOff 2012
 
-A project made with HTML5, CSS3 and jQuery for the CSSOff 2012 contests. 
+A project made with [Guillem Andreu][1] ([@guill3m][2]) to participate in the CSSOff 2012 Contest that consists on develop a website based on a gived photoshop design sample and follow a strict set of rules such as clean and semantic code, responsive design, modern and legacy browser support and resources optimization.
 
-Project URL address -  http://cssoff.albertoblazquez.net
+We implemented the web using HTML5, CSS3 and some small animation scripts with jQuery 
+
+Project URL address -  [http://cssoff.albertoblazquez.net][5]
 
 
 ## Authors
 
-Alberto Bl·zquez (@albertoblaz) - http://albertoblazquez.net
-Guillem Andreu (@guill3m) - http://guillemandreu.com
+- [Alberto Bl√°zquez][3] ([@albertoblaz][4])
+- [Guillem Andreu][1] ([@guill3m][2])
+
+
+[1]: http://guillemandreu.com
+[2]: https://twitter.com/guill3m
+[3]: http://albertoblazquez.net
+[4]: https://twitter.com/albertoblaz
+[5]: http://cssoff.albertoblazquez.net
