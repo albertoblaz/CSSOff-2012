@@ -4,7 +4,7 @@ A project made with [Guillem Andreu][1] ([@guill3m][2]) to participate in the CS
 
 We implemented the web using HTML5, CSS3 and some small animation scripts with jQuery 
 
-Project URL address -  [http://cssoff.albertoblazquez.net][5]
+Project URL address -  [http://cssoff-2012.albertoblazquez.net/][5]
 
 
 ## Authors
@@ -17,4 +17,4 @@ Project URL address -  [http://cssoff.albertoblazquez.net][5]
 [2]: https://twitter.com/guill3m
 [3]: http://albertoblazquez.net
 [4]: https://twitter.com/albertoblaz
-[5]: http://cssoff.albertoblazquez.net
+[5]: http://cssoff-2012.albertoblazquez.net/
